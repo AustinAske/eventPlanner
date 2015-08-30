@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="scripts/Authenticate.js" type="text/javascript"></script>
+		<script src="http://code.jquery.com/jquery-2.1.4.js" type="text/javascript"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Event Planner - Login</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li>Contact</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="login">
+			<form id="loginForm" onsubmit="return login()" method="post"> 
+					<input name="email" type="email"/>
+					<input name="password" type="password"/>
+					<input id="loginSubmit" type="submit" name="loginSubmit" value="Sign in"/>
+			</form>
+
+		</div>
+	</body>
