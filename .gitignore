@@ -1,3 +1,4 @@
-/go-sql-driver/
-cert.pem
-key.pem
+/pkg
+/bin
+/ssl
+/src/github.com/go-sql-driver
